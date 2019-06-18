@@ -1,0 +1,38 @@
+.store-card {
+    padding-top: 100px;
+}
+
+.store-card label {
+    font-size: 1.8em;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.store-card .kit {
+    width: 100%;
+    text-align: center;
+    border-top: 1px darkgray solid;
+    border-bottom: 1px darkgray solid;
+    background-color: whitesmoke;
+    padding-bottom: 32px;
+}
+
+.store-card .kit img {
+    width: 65%;
+    height: 650px;
+}
+
+.kit button {
+    display: block;
+    font-size: 2.6em;
+    font-weight: bold;
+    color: white;
+    font-family: 'Montserrat';
+    margin-left: 20%;
+    margin-top: -6%;
+}
+
+button:hover {
+    cursor: pointer;
+}

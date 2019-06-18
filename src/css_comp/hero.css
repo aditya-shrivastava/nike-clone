@@ -1,0 +1,120 @@
+.hero {
+    padding-top: 60px;
+}
+
+.hero-content {
+    border-top: 0.8px darkgray solid;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.hero-content img {
+    width: 90%;
+    height: 800px;
+}
+
+.banner-text {
+    text-align: left;
+    margin-left: 8%;
+    margin-top: -20%;
+    font-size: 1.6em;
+    font-family: 'Montserrat';
+    color: white;
+}
+
+.banner-text p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2.2em;
+}
+
+.banner-text button {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 10px;
+    border: none;
+    width: 100px;
+    height: 40px;
+    font-size: 0.7em;
+}
+
+.banner-text button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.hleft {
+    padding-top: 100px;
+    padding-left: 73px;
+    text-align: left;
+    width: 50%;
+}
+
+.hleft img {
+    height: 550px;
+}
+
+.hleft .banner-text {
+    margin-top: -20%;
+    margin-left: 3%;
+    color: black;
+}
+
+.hleft .banner-text p {
+    font-size: 1.2em;
+    color: white;
+    font-family: 'Montserrat';
+}
+
+.hright {
+    float: right;
+    width: 50%;
+    text-align: center;
+    margin-top: -40%;
+    padding-top: 100px;
+}
+
+.hright img {
+    width: 81%;
+    height: 440px;
+}
+
+.hright .banner-text {
+    margin-left: 13%;
+    margin-top: -16%;
+    font-size: 1.2em;
+    font-family: 'Montserrat';
+}
+
+.hright .banner-text p {
+    font-size: 1.2em;
+    color: white;
+    font-family: 'Montserrat';
+}
+
+.hero-content-last {
+    width: 90%;
+    text-align: center;
+    padding-top: 60px;
+    margin-left: 5%;
+}
+
+.hero-content-last img {
+    width: 100%;
+    height: 550px;
+    padding-left: 5px;
+}
+
+.hero-content-last .banner-text {
+    color: black;
+    margin-top: -17%;
+    margin-left: 3%;
+    word-spacing: 0.5;
+    letter-spacing: -2px;
+}
+
+.hero-content-last button {
+    background-color: black;
+    color: white;
+}

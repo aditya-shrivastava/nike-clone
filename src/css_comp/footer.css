@@ -1,0 +1,110 @@
+.footer {
+    border: 1px #3e3e3e solid;
+    margin-top: 4%;
+    color: white;
+    background-color: rgb(17, 15, 15);
+    height: 360px;
+}
+
+.f-list {
+    list-style: none;
+    padding: 40px 60px;
+    line-height: 260%;
+    font-size: 1em;
+    font-family: 'Montserrat';
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+.s-list {
+    margin-left: 20%;
+    margin-top: -13%;
+    list-style: none;
+    padding: 33px 60px;
+    line-height: 280%;
+    font-size: 0.8em;
+    font-family: 'Montserrat';
+}
+
+.s-list li:first-child {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+}
+
+.s-list li {
+    color: darkgray;
+}
+
+.s-list li:hover {
+    color: white;
+}
+
+.t-list {
+    margin-left: 40%;
+    margin-top: -19%;
+    list-style: none;
+    padding: 38px 60px;
+    line-height: 280%;
+    font-size: 0.8em;
+    font-family: 'Montserrat';
+}
+
+.t-list li:first-child {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+}
+
+.t-list li {
+    color: darkgray;
+}
+
+.t-list li:hover {
+    color: white;
+}
+
+
+.l-list {
+    text-align: right;
+    margin-right: 8%;
+    margin-top: -13%;
+}
+
+.l-list li {
+    display: inline-block;
+    padding: 25px 10px;
+    font-size: 1.4em;
+    color: darkgray;
+}
+
+.l-list li:hover {
+    color: white;
+}
+
+.bottom {
+    font-family: 'Montserrat';
+    border-top: 0.5px gray solid;
+    margin-top: 15%;
+    width: 90%;
+    margin-left: 5%;
+    font-size: 0.8em;
+}
+
+.bottom-label {
+    display: inline-block;
+    padding: 10px 10px;
+    margin-left: 68%;
+    color: darkgray;
+}
+
+.bottom-label label {
+    padding: 10px 10px;
+}
+
+.bottom-label label:hover {
+    color: white;
+    cursor: pointer;
+}

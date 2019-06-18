@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    display: fixed;
+    display: flex;
+    border-bottom: 1px darkgrey solid;
+}
+
+.left-link {
+    color: darkgray;
+    list-style: none;
+}
+
+.left-link li {
+    position: relative;
+    display: inline-block;
+    border: 1px rgb(199, 195, 195) solid;
+    border-top: none;
+    border-bottom: none;
+    padding: 12px 24px;
+    font-size: 0.7em;
+    font-family: 'Montserrat';
+    font-weight: bold
+}
+
+.left-link li:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.left-link li:first-child {
+    border-right: none;
+}
+
+.left-link li:last-child:hover {
+    color: red;
+}
+
+.right-link {
+    padding-left: 66%;
+    border: none;
+    display: inline-block;
+    list-style: none;
+    color: darkgray;
+    font-size: 0.7em;
+    font-family: 'Montserrat';
+}
+
+.right-link li {
+    display: inline-block;
+    padding: 11px 16px;
+}
+
+.right-link li:hover {
+    cursor: pointer;
+    color: black;
+    border-bottom: 2px #000 solid;
+}
+
+.right-link li a {
+    text-decoration: none;
+    color: darkgray;
+}
+
+.right-link li a:hover {
+    color: black;
+}
+
+.dropdown label:hover {
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    padding: 10px 15px;
+    top: 5.5%;
+    right: 2%;
+    z-index: 1;
+    background-color: white;
+}
+
+.dropdown-content a {
+    padding: 12px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.right-link li:nth-child(2):hover .dropdown-content{
+    display: block;
+    border: 0.5px #000 solid;
+}
